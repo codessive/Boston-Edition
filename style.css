@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto&display=swap');
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto',sans-serif;
+    color: #000000;
+    margin: 0;
+}
+
+/* styling for responsiveness. Image not displaying well on small screen*/ 
+.main-image {
+    max-width: 100%;
+    width: 100vw;
+    height: auto;
+    background-position: center;
+}
+
+.credits {
+    font-size: 10px;
+    color: #808080;
+}
+
+p {
+text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+sup {
+    font-family: 'Roboto',sans-serif;
+    color: #808080;
+}
+
+#partner1, #partner2 {
+    text-align: center;
+}
+
+#copy {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+#social {
+    margin-top: 24px;
+}
