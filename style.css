@@ -45,6 +45,40 @@ sup {
     margin-bottom: 24px;
 }
 
-#social {
-    margin-top: 24px;
+.poster1 {
+    min-height: 620px;
+}
+
+.poster2 {
+    min-height: 630px;
+}
+
+.poster3 {
+    min-height: 645px;
+}
+
+.social {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#footer {
+    background-color:#292B2C ;
+}
+
+.menu-list {
+    background-color:#292B2C ;  
+}
+
+#address {
+    color: #FFFFFF;
+}
+
+.address {
+    text-align: left;
+}
+
+.bottom {
+ text-align: left;
+ color: #FFFFFF;   
 }
