@@ -7,14 +7,6 @@ html, body {
     margin: 0;
 }
 
-/* styling for responsiveness. Image not displaying well on small screen*/ 
-.main-image {
-    max-width: 100%;
-    width: 100vw;
-    height: auto;
-    background-position: center;
-}
-
 .credits {
     font-size: 10px;
     color: #808080;
@@ -45,6 +37,8 @@ sup {
     margin-bottom: 24px;
 }
 
+/*  film posters not aligning properly due to varying heights*/
+
 .poster1 {
     min-height: 620px;
 }
@@ -57,17 +51,18 @@ sup {
     min-height: 645px;
 }
 
+#schedule {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .social {
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-#footer {
+#footer, .menu-list {
     background-color:#292B2C ;
-}
-
-.menu-list {
-    background-color:#292B2C ;  
 }
 
 #address {

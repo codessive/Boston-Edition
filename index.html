@@ -33,12 +33,17 @@
                           
                      </ul>
                   </div>
-              </nav>                 
-                              <!--image -->
-              <div>
-                  <img class="main-image"  id="home"src="images/eunice.jpg" type="image/jpg" alt="background">
-                  <span class="credits">Photo by Eunice Stahl on Unsplash</span>
-              </div>                      
+              </nav>  
+
+                              <!--main image -->     
+              <div class="card">
+                <img src="images/eunice.jpg" class="card-img-top" alt="background">
+                <div class="card-body">
+                  <p class="card-text credits">Photo by Eunice Stahl on Unsplash</p>
+                </div>
+              </div>
+
+                              
                               <!-- about -->
               <div id="about" class="row"> 
                  <div class="col-sm-12 col-lg-6">
@@ -162,10 +167,7 @@
                           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                       </div>
                       
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                        <h4>Days I'll be attending</h4>
+                        <p>Days I'll be attending:</p>
                         
                         <div class="form-group form-check form-check-inline">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -183,18 +185,30 @@
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">8th Aug</label>
                         </div>
-                      
+
+                        
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Drop a message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          <label for="sel1">Get your tickets:</label>
+                          <select class="form-control" id="sel1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                          </select>
                         </div>
+
+
+                        <div>
                         <button type="submit" class="btn btn-dark">Submit</button>
+                      </div>
                       </form>
                   </div>
          
-                  <div id="schedule" class="col-sm-12 col-lg-6 order-lg-2">
+                  <div class="col-sm-12 col-lg-6 order-lg-2">
                       <h2>Schedule</h2>
-                      <table class="table table-dark">
+                      <table id="schedule" class="table table-dark">
                         <thead>
                           <tr>
                             <th scope="col">Days</th>
@@ -237,9 +251,47 @@
         
 
                 
-                    <p col-sm-12 id="copy"> copyright &#169; codessive 2020</p>
                      
                   
+                        <!-- add news section -->
+                        <div id="news" class="row"> 
+                          <div class="col-sm-12 col-lg-2">
+                            <div class="d-none d-lg-block"></div>
+                        </div>
+                          <div class="col-sm-12 col-lg-8">
+                            <h2>News and Announcements</h2>
+                            <div class="row">
+                              <div class="col">
+                                <p>
+                                  4 Charles St,<br>
+                                  Boston,<br>
+                                  MA02108,<br>
+                                  United States
+                                </p>
+
+                              </div>
+                              <div class="col">
+                                <p>
+                                  4 Charles St,<br>
+                                  Boston,<br>
+                                  MA02108,<br>
+                                  United States
+                                </p>
+
+                              </div>
+                           
+                          </div>
+                          </div>
+    
+                          <div class="col-sm-12 col-lg-2">
+                            <div class="d-none d-lg-block"></div>
+                            
+                          </div>
+                      </div>   
+                      
+                      <p col-sm-12 id="copy"> copyright &#169; codessive 2020</p>
+                           
+
                         <!-- footer -->
 
                   <div id="footer" class="row"> 
